@@ -1,0 +1,31 @@
+body{
+    background-color: beige;
+}
+
+
+.update-form{
+   margin-top: 100px;
+   padding: 20px;
+   background-color: rgb(213, 229, 143);
+   width: 50%;
+}
+
+input{
+    height: 40px;
+    border: none;
+}
+
+label{
+    font-size: larger;
+    color: brown;
+}
+
+.login-button{
+    height: 50px;
+    width: 100px;
+    font-size: medium;
+}
+.validate{
+    color: blue;
+    
+}

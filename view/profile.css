@@ -1,0 +1,26 @@
+body{
+    background-color: beige;
+}
+
+
+.profile-form{
+   margin-top: 100px;
+   padding: 20px;
+   background-color: rgb(123, 222, 242);
+   width: 50%;
+}
+
+span{
+    color: rgb(12, 12, 118);
+}
+
+.update-btn{
+    background-color: rgb(5, 152, 95);
+    padding: 8px;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}

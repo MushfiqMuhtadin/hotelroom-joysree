@@ -1,0 +1,21 @@
+body{
+    background-color: beige;
+}
+
+
+.customer-form{
+   margin-top: 100px;
+   padding: 20px;
+   background-color: rgb(213, 229, 143);
+   width: 50%;
+}
+
+th{
+    padding: 10px;
+}
+
+td{
+    font-size:large;
+    padding: 10px;
+}
+

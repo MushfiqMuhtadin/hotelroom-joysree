@@ -1,0 +1,31 @@
+body{
+    background-color: beige;
+}
+
+
+.room-form{
+   margin-top: 100px;
+   padding: 20px;
+   background-color: rgb(213, 229, 143);
+   width: 50%;
+}
+
+.update-btn{
+    background-color: rgb(77, 77, 241);
+    padding: 8px;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+th{
+    padding: 10px;
+}
+
+td{
+    font-size:large;
+    padding: 10px;
+}
