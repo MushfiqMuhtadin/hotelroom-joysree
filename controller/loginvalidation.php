@@ -44,9 +44,12 @@ if ($count == 1) {
         $_SESSION['phone'] = $row['phone'];
         $_SESSION['dob'] = $row['dob'];
         $_SESSION['usertype'] = $row['usertype'];
-        setcookie('email', $email, time() + 30000, '/');
-        setcookie('password', $userpassword, time() + 30000, '/');
 
+        if(isset($_POST['remember'])) {
+            
+            setcookie('email', $email, time() + (86400 * 30), '/'); 
+            setcookie('password', $userpassword, time() + (86400 * 30), '/'); 
+        }
         header("location: ../view/staff.php");
         exit();
     }
